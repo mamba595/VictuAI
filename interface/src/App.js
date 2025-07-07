@@ -16,11 +16,19 @@ function App() {
     <section className="Chatbox">
       <div className="ChatLog">
         <div className="ChatMessage">
-          <div className="avatar">
-            Me
+          <div className="ChatMessageCenter">  
+            <div className="avatar"></div>
+            <div className="message">
+              Hello
+            </div>
           </div>
-          <div className="message">
-            Hello
+        </div>
+        <div className="ChatMessage Interface">
+          <div className="ChatMessageCenter">  
+            <div className="avatar Interface"></div>
+            <div className="message">
+              I am VictuAI
+            </div>
           </div>
         </div>
       </div>

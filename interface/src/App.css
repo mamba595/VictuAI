@@ -90,18 +90,31 @@
 .ChatLog {
   padding:24px;
   text-align:left;
-  display:flex;
 }
 
-.ChatMessage {
-  padding:12px;
-  padding-left: 40px;
-  padding-right: 40px;
+.ChatMessage.Interface {
+  background-color:#444654;
+}
+
+.ChatMessageCenter {
+  max-width:640px;
+  margin-left:auto;
+  margin-right:auto;
   display:flex;
+  padding:12px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .avatar {
   background:white;
+  border-radius:50%;
+  width:40px;
+  height:40px;
+}
+
+.avatar.Interface {
+  background:#0da37f;
   border-radius:50%;
   width:40px;
   height:40px;
