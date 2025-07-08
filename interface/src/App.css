@@ -8,6 +8,8 @@
   bottom:0;
   right:0;
   left:0;
+  overflow: hidden;
+  height:100vh;
 }
 
 .SideMenu {
@@ -37,6 +39,7 @@
   flex:1;
   background-color:#343541;
   position:relative;
+  display:flex;
 }
 
 .App-logo {
@@ -90,6 +93,9 @@
 .ChatLog {
   padding:24px;
   text-align:left;
+  scrollbar-width: thin;
+  overflow-y: auto;
+  flex:1;
 }
 
 .ChatMessage.Interface {
