@@ -1,7 +1,7 @@
 # VictuAI - Deepseek-R1-7B Supervised Finetuned for Diet Recommendation
 
 ## Introduction
-In this repository I finetune a DeepSeek-R1-Distill-Qwen-7B model into providing personalised diet recommendations using Supervised Finetuning, QLoRA and a custom full training loop, which allowed me to finetune the model in a free tier Kaggle notebook using the 2 T4 GPUs available and with limited RAM.
+In this repository I finetune a DeepSeek-R1-Distill-Qwen-7B model (https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B) into providing personalised diet recommendations using Supervised Finetuning, QLoRA and a custom full training loop, which allowed me to finetune the model in a free tier Kaggle notebook using the 2 T4 GPUs available and with limited RAM.
 
 I explain more in detail in the notebooks how I did it and my thought process behind it, which are in the notebooks folder, along with how to test the model for inference in Gradio and how to "deploy" the model in a temporal "server" that can be connected to the basic interface I built on React, by getting the ngrok URL and putting it into the App.js file in the React app.
 
